@@ -152,6 +152,10 @@ def produce_lesson_videos(lesson):
         long_thumb_path
     )
 
+    if long_video_id == "LOCAL_RENDER_ONLY":
+        print("ℹ️ Videos rendered successfully in cloud! Skipping YouTube upload until OAuth credentials are provided.")
+        return "LOCAL_RENDER_ONLY"
+
     if long_video_id:
         print("⏳ Waiting 30 seconds before uploading the short...")
         time.sleep(30)

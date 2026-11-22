@@ -27,8 +27,10 @@ def sanitize_title(title: str | None, max_length: int = 100) -> str:
 
 
 def has_credentials():
-    """Checks if YouTube upload credentials are provided."""
-    return CREDENTIALS_FILE.exists() or CLIENT_SECRETS_FILE.exists()
+    """Checks if YouTube upload credentials are provided and non-empty."""
+    has_creds = CREDENTIALS_FILE.exists() and CREDENTIALS_FILE.stat().st_size > 10
+    has_secrets = CLIENT_SECRETS_FILE.exists() and CLIENT_SECRETS_FILE.stat().st_size > 10
+    return has_creds or has_secrets
 
 
 def get_authenticated_service():
@@ -37,9 +39,13 @@ def get_authenticated_service():
         return None
     credentials = None
 
-    if CREDENTIALS_FILE.exists():
+    if CREDENTIALS_FILE.exists() and CREDENTIALS_FILE.stat().st_size > 10:
         print("INFO: Found existing credentials file.")
-        credentials = Credentials.from_authorized_user_file(str(CREDENTIALS_FILE), YOUTUBE_UPLOAD_SCOPE)
+        try:
+            credentials = Credentials.from_authorized_user_file(str(CREDENTIALS_FILE), YOUTUBE_UPLOAD_SCOPE)
+        except Exception as e:
+            print(f"⚠️ Could not load credentials.json: {e}")
+            credentials = None
 
     if not credentials or not credentials.valid:
         if credentials and credentials.expired and credentials.refresh_token:
