@@ -200,9 +200,12 @@ def main():
                 if video_id:
                     for original_lesson in plan['lessons']:
                         if original_lesson['title'].strip().lower() == lesson['title'].strip().lower():
-                            original_lesson['status'] = 'complete'
-                            original_lesson['youtube_id'] = video_id
-                            print(f"✅ Completed episode: {lesson['title']}")
+                            if video_id != "LOCAL_RENDER_ONLY":
+                                original_lesson['status'] = 'complete'
+                                original_lesson['youtube_id'] = video_id
+                                print(f"✅ Completed episode and uploaded: {lesson['title']}")
+                            else:
+                                print(f"✅ Episode rendered successfully in cloud: {lesson['title']} (Upload pending YouTube credentials)")
                             break
                 else:
                     print(f"❌ Upload failed (no video ID returned): {lesson['title']}")

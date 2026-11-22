@@ -26,8 +26,15 @@ def sanitize_title(title: str | None, max_length: int = 100) -> str:
     return clean_title
 
 
+def has_credentials():
+    """Checks if YouTube upload credentials are provided."""
+    return CREDENTIALS_FILE.exists() or CLIENT_SECRETS_FILE.exists()
+
+
 def get_authenticated_service():
     """Handles OAuth2 flow and returns an authenticated YouTube service object."""
+    if not has_credentials():
+        return None
     credentials = None
 
     if CREDENTIALS_FILE.exists():
@@ -62,6 +69,9 @@ def upload_to_youtube(video_path, title, description, tags, thumbnail_path=None)
     print(f"⬆️ Uploading '{video_path}' to YouTube ({privacy_status.upper()}) with title: {sanitized_title}")
     try:
         youtube = get_authenticated_service()
+        if not youtube:
+            print("ℹ️ YouTube credentials not configured yet. Video rendered and saved in output/. Skipping upload step.")
+            return "LOCAL_RENDER_ONLY"
 
         request_body = {
             'snippet': {
