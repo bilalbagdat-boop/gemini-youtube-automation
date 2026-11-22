@@ -45,8 +45,8 @@ def get_stock_image(query, video_type):
     orientation_pixabay = 'horizontal' if video_type == 'long' else 'vertical'
     orientation_pexels = 'landscape' if video_type == 'long' else 'portrait'
 
-    # 1. Try Pixabay API
-    pixabay_api_key = os.getenv("PIXABAY_API_KEY")
+    # 1. Try Pixabay API (checks PIXABAY_API_KEY or fallback to PEXELS_API_KEY slot)
+    pixabay_api_key = os.getenv("PIXABAY_API_KEY") or os.getenv("PEXELS_API_KEY")
     if pixabay_api_key:
         try:
             params = {
