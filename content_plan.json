@@ -1,142 +1,177 @@
 {
   "lessons": [
     {
+      "chapter": 1,
+      "part": 1,
+      "title": "The Psychology of Money: Why Being Smart With Numbers Isn't Enough",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 2,
+      "part": 1,
+      "title": "How McDonald's Actually Makes Billions (The Secret Real Estate Model)",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 3,
+      "part": 1,
+      "title": "The 50/30/20 Budget Rule: The Easiest Formula to Build Wealth",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 4,
+      "part": 1,
+      "title": "Compound Interest: How Everyday People Retire as Millionaires",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 5,
+      "part": 1,
+      "title": "Assets vs Liabilities: What The Rich Buy That Keeps Them Wealthy",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 6,
+      "part": 1,
+      "title": "How Credit Card Companies Trap You (And How to Win Instead)",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 7,
+      "part": 1,
+      "title": "Why Inflation Quietly Steals Your Wealth (And How to Hedge It)",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 8,
+      "part": 1,
+      "title": "How Costco Makes 72% of Its Profit Without Selling Groceries",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 9,
+      "part": 1,
+      "title": "Lifestyle Inflation: The Silent Killer of Middle-Class Wealth",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 10,
+      "part": 1,
+      "title": "Index Funds vs Individual Stocks: What 50 Years of Market History Teaches Us",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 11,
+      "part": 1,
+      "title": "The 3 to 6 Month Emergency Fund: Your Financial Shock Absorber",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 12,
+      "part": 1,
+      "title": "How Starbucks Secretly Built a $1.6 Billion Customer-Funded Bank",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 13,
+      "part": 1,
+      "title": "Debt Snowball vs Avalanche: The Mindset vs The Math",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 14,
+      "part": 1,
+      "title": "The Truth About Passive Income: 3 Realistic Streams Anyone Can Build",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 15,
+      "part": 1,
+      "title": "Why Luxury Brands Need the Middle Class (The Status Symbol Trap)",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 16,
+      "part": 1,
+      "title": "Good Debt vs Bad Debt: How the Wealthy Leverage Other People's Money",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 17,
+      "part": 1,
+      "title": "The S&P 500 For Beginners: Owning America's 500 Greatest Companies",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 18,
+      "part": 1,
+      "title": "Why 70% of Lottery Winners Go Broke: The Sudden Wealth Syndrome",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 19,
+      "part": 1,
+      "title": "The Rule of 72: How Fast Will Your Money Double?",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 20,
+      "part": 1,
+      "title": "How Rolex Creates Artificial Scarcity to Command Millions",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
       "chapter": 21,
       "part": 1,
-      "title": "What are Large Language Models (LLMs) Really? (The Super-Smart Storyteller)",
-      "status": "complete",
-      "youtube_id": "yMVaMik2a70"
+      "title": "The True Cost of Car Ownership: The Wealth-Killer Nobody Considers",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 22,
       "part": 1,
-      "title": "Prompt Engineering: Talking to Your LLM Effectively (Like Giving Clear Instructions to a Genius)",
-      "status": "complete",
-      "youtube_id": "37TVCnn4jVM"
+      "title": "Why Renting Isn't 'Throwing Money Away' (The Unspoken Financial Reality)",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 23,
       "part": 1,
-      "title": "Embeddings: Turning Words into Numbers for AI (Giving AI a Sense of Meaning and Similarity)",
-      "status": "complete",
-      "youtube_id": "4bK10PrcCaQ"
+      "title": "The Opportunity Cost of Everyday Spending: How Small Habits Cost Millions",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 24,
       "part": 1,
-      "title": "Vector Databases: Giving Your AI a Super-Fast Memory for Meaning (Like an Index for Ideas, Not Just Words)",
-      "status": "complete",
-      "youtube_id": "8cimpKxU88w"
+      "title": "How Amazon Prime Converts Free Shipping into Billions in Habitual Spending",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 25,
       "part": 1,
-      "title": "Retrieval-Augmented Generation (RAG): Making Your LLM Factually Accurate (Like an AI with a Research Library)",
-      "status": "complete",
-      "youtube_id": "7JjeIJIjjEc"
-    },
-    {
-      "chapter": 26,
-      "part": 1,
-      "title": "Introduction to AI Agents: Giving Your AI Tools and Autonomy (AI as a Personal Assistant with a To-Do List)",
-      "status": "complete",
-      "youtube_id": "1j0-OM9bMAs"
-    },
-    {
-      "chapter": 27,
-      "part": 1,
-      "title": "Tool Use for AI Agents: Equipping Your AI with Skills (Giving Your AI a Toolbox of Apps)",
-      "status": "complete",
-      "youtube_id": "hto2stc3Gfc"
-    },
-    {
-      "chapter": 28,
-      "part": 1,
-      "title": "Planning and Reasoning for AI Agents: How AI Solves Complex Problems (Like an AI Making a Step-by-Step Plan)",
-      "status": "complete",
-      "youtube_id": "QjRQyE54YR0"
-    },
-    {
-      "chapter": 29,
-      "part": 1,
-      "title": "LangChain: Building Powerful LLM Applications (Like Lego Blocks for AI Projects)",
-      "status": "complete",
-      "youtube_id": "1IEXsMj8BE0"
-    },
-    {
-      "chapter": 30,
-      "part": 1,
-      "title": "LangGraph: Orchestrating Complex AI Workflows (Designing a Smart AI's Decision-Making Flowchart)",
-      "status": "complete",
-      "youtube_id": "VfXPs4WBo9w"
-    },
-    {
-      "chapter": 31,
-      "part": 1,
-      "title": "Transformers Architecture Deconstructed (Part 1: The Encoder): How AI Understands Language (Like Breaking Down a Translator's Brain)",
-      "status": "complete",
-      "youtube_id": "iacdnSxGg0g"
-    },
-    {
-      "chapter": 32,
-      "part": 1,
-      "title": "Transformers Architecture Deconstructed (Part 2: The Decoder & Attention): How AI Generates Language (How the Translator Crafts New Sentences)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 33,
-      "part": 1,
-      "title": "Attention Mechanisms: The Spotlight of AI Learning (How AI Focuses on Important Information)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 34,
-      "part": 1,
-      "title": "From BERT to GPT: A Tour of Transformer Models (Family Tree of AI Language Geniuses)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 35,
-      "part": 1,
-      "title": "Multi-Modal AI: Beyond Text - Images, Audio, and More (AI That Can See, Hear, and Talk)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 36,
-      "part": 1,
-      "title": "Introduction to Reinforcement Learning: AI Learning Through Trial and Error (Like Training a Pet with Rewards)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 37,
-      "part": 1,
-      "title": "RL for AI Agents: Making Agents Learn from Experience (Teaching Your AI to Play Games and Solve Problems)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 38,
-      "part": 1,
-      "title": "Multi-Agent Systems: When AIs Work Together (Like a Team of AI Specialists)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 39,
-      "part": 1,
-      "title": "AI System Design & Architecture: Blueprints for Complex AI (Designing the Engine Room of an AI Super-System)",
-      "status": "pending",
-      "youtube_id": null
-    },
-    {
-      "chapter": 40,
-      "part": 1,
-      "title": "Building Scalable AI Applications: From Prototype to Production (Turning Your AI Idea into a Global Service)",
+      "title": "The FIRE Movement Explained: How People Retire in Their 30s and 40s",
       "status": "pending",
       "youtube_id": null
     }
