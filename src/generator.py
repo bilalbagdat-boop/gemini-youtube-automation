@@ -24,7 +24,7 @@ FALLBACK_THUMBNAIL_FONT = ImageFont.load_default()
 
 CHANNEL_BRAND = os.getenv("CHANNEL_BRAND", "Wealth Blueprint")
 PRESENTER_NAME = os.getenv("PRESENTER_NAME", "Alex")
-DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
 
 # Google's TTS endpoint rate-limit protection
 TTS_MAX_ATTEMPTS = 5
@@ -137,7 +137,7 @@ def text_to_speech(text, output_path):
 def _call_gemini_with_fallback(prompt):
     """Calls Gemini API using the modern google-genai SDK with model fallback."""
     client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
-    models_to_try = [DEFAULT_GEMINI_MODEL, "gemini-2.5-flash", "gemini-1.5-flash"]
+    models_to_try = [DEFAULT_GEMINI_MODEL, "gemini-3.1-flash-lite", "gemini-3-flash-preview", "gemini-3.8-flash"]
     # De-duplicate while preserving order
     seen = set()
     models = [m for m in models_to_try if not (m in seen or seen.add(m))]
